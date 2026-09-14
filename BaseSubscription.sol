@@ -33,3 +33,6 @@ contract BaseSubscription {
         return (subscriptionEnd[user] - block.timestamp) / 1 days;
     }
 }
+        return (subscriptionEnd[user] - block.timestamp) / 1 days;
+    }
+}
